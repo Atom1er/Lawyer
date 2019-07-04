@@ -66,3 +66,30 @@ body{
         }
     }
 }
+
+.body-text{
+    .paragraph{
+        // padding: 25px;
+        .paragraph-header{
+            padding: 15px;
+        }
+        .paragraph-body{
+            padding: 15px;
+            text-align: justify;
+        }
+    }
+}
+
+.footer{
+    font-size: smaller;
+    background-color: #3f5463;
+    padding: 30px;
+    color: #e0e0e0;
+    text-align: center;
+    ul{
+        li{
+            list-style: none;
+            display: inline-block;
+        }
+    }
+}
